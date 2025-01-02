@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendar.Domain", "..\MyCalendar.Domain\MyCalendar.Domain.csproj", "{DC42432C-610F-4573-8693-236BE9D86E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendar.Data", "..\MyCalendar.Data\MyCalendar.Data.csproj", "{31B46BD4-0FF5-468E-B9C7-DB47169C6ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendar.Application", "..\MyCalendar.Application\MyCalendar.Application.csproj", "{87B19914-592D-42CA-851A-47D1B2CD918D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendar.Api", "..\MyCalendar.Api\MyCalendar.Api.csproj", "{81473AF8-9395-4B4A-BF74-FEA306A00457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendar.Tests", "..\MyCalendar.Tests\MyCalendar.Tests.csproj", "{34BAFCD1-3673-4E33-BD9B-1A7A9F4D55BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC42432C-610F-4573-8693-236BE9D86E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC42432C-610F-4573-8693-236BE9D86E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC42432C-610F-4573-8693-236BE9D86E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC42432C-610F-4573-8693-236BE9D86E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B46BD4-0FF5-468E-B9C7-DB47169C6ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B46BD4-0FF5-468E-B9C7-DB47169C6ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B46BD4-0FF5-468E-B9C7-DB47169C6ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B46BD4-0FF5-468E-B9C7-DB47169C6ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B19914-592D-42CA-851A-47D1B2CD918D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B19914-592D-42CA-851A-47D1B2CD918D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B19914-592D-42CA-851A-47D1B2CD918D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B19914-592D-42CA-851A-47D1B2CD918D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81473AF8-9395-4B4A-BF74-FEA306A00457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81473AF8-9395-4B4A-BF74-FEA306A00457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81473AF8-9395-4B4A-BF74-FEA306A00457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81473AF8-9395-4B4A-BF74-FEA306A00457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BAFCD1-3673-4E33-BD9B-1A7A9F4D55BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BAFCD1-3673-4E33-BD9B-1A7A9F4D55BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BAFCD1-3673-4E33-BD9B-1A7A9F4D55BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BAFCD1-3673-4E33-BD9B-1A7A9F4D55BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

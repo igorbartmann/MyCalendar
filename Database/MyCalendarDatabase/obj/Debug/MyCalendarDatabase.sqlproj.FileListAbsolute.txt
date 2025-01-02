@@ -1,0 +1,12 @@
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\bin\Debug\MyCalendarDatabase.dacpac
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\bin\Debug\MyCalendarDatabase.dll
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\bin\Debug\MyCalendarDatabase.pdb
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\MyCalendarDatabase.sqlproj.AssemblyReference.cache
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\MyCalendarDatabase.GeneratedMSBuildEditorConfig.editorconfig
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\MyCalendarDatabase.sourcelink.json
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\Model.xml
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\refactor.xml
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\postdeploy.sql
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\predeploy.sql
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\MyCalendarDatabase.dll
+c:\Dev\MyCalendar\Database\MyCalendarDatabase\obj\Debug\MyCalendarDatabase.pdb

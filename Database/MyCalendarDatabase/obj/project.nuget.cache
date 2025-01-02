@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ubnOHiOvhg=",
+  "success": true,
+  "projectFilePath": "c:\\Dev\\MyCalendar\\Database\\MyCalendarDatabase\\MyCalendarDatabase.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\I751273\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\I751273\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
