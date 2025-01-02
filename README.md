@@ -35,35 +35,35 @@ As an user, I can
 - View informations shared with other users: at Home screen I can click in a share retangle area to visualize the informations shared in this area of users. After click in the retangle area, the Compartilhamento screen will open and I can select 'Calendário' (calendar) or 'List' (list) to see informations.
 
 ## Prototype
-Login Page <br/>
-[]
+- Login Page <br/>
+![image](https://github.com/user-attachments/assets/d576525f-12e0-46c5-8d92-92c5a3f5ece1)
 
-SignUp Page <br/>
-[]
+- SignUp Page <br/>
+![image](https://github.com/user-attachments/assets/01d3996c-cd3d-4af9-bd6d-8a7277b2fc01)
 
-Home Page <br/>
-[]
+- Home Page <br/>
+![image](https://github.com/user-attachments/assets/cfab04a5-a2b8-4d1f-aa99-c1a928a6b306)
 
-Home Page + Edit Profile Modal <br/>
-[]
+- Home Page + Edit Profile Modal <br/>
+![image](https://github.com/user-attachments/assets/aea5700a-769d-4fa3-a543-5fb4b3930afd)
 
-Home Page + Notifications Modal <br/>
-[]
+- Home Page + Notifications Modal <br/>
+![image](https://github.com/user-attachments/assets/93eebdd9-c4a1-45ac-83fd-847e336619f6)
 
-Home Page + New Share Modal <br/>
-[]
+- Home Page + New Share Modal <br/>
+![image](https://github.com/user-attachments/assets/61e91efc-dad7-4155-a886-2438be205642)
 
-Share Page <br/>
-[]
+- Share Page <br/>
+![image](https://github.com/user-attachments/assets/a9d8276f-f270-4567-b915-6f78d9b05da5)
 
-Share Page + Edit Shared Area Description Modal <br/>
-[] 
+- Share Page + Edit Shared Area Description Modal <br/>
+![image](https://github.com/user-attachments/assets/592fcbac-7868-410c-8881-b3cd1f685dae)
 
-Calendar Page <br/>
-[] 
+- Calendar Page <br/>
+![image](https://github.com/user-attachments/assets/7a7a5ee5-f295-4a99-b842-21a1a279f2f2)
 
-List Page <br/>
-[] 
+- List Page <br/>
+![image](https://github.com/user-attachments/assets/75d43c0b-65cc-4b72-926b-7bb99a9344d8)
 
 ## Development Tasks
 Tasks to do:
