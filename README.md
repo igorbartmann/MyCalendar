@@ -48,7 +48,7 @@ As an user, I can
 ![image](https://github.com/user-attachments/assets/aea5700a-769d-4fa3-a543-5fb4b3930afd)
 
 - Home Page + Notifications Modal <br/>
-![image](https://github.com/user-attachments/assets/93eebdd9-c4a1-45ac-83fd-847e336619f6)
+![image](https://github.com/user-attachments/assets/760561cc-fc86-46a7-a9e2-fc7b56a03320)
 
 - Home Page + New Share Modal <br/>
 ![image](https://github.com/user-attachments/assets/61e91efc-dad7-4155-a886-2438be205642)
