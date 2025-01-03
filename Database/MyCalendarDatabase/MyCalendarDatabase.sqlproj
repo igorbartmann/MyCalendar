@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.2.0-preview" />
+  <PropertyGroup>
+    <Name>MyCalendarDatabase</Name>
+    <ProjectGuid>{5DF109F9-5EC3-4E07-B423-13001AE6062E}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Post-Script" />
+    <Folder Include="security" />
+    <Folder Include="Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Version">
+      <Value>$(SqlCmdVar__1)</Value>
+      <DefaultValue>1.0</DefaultValue>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>
