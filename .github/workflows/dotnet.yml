@@ -13,27 +13,28 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+    
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 6.0.x
         
-    - name: Restore dependencies (API)
+    - name: Restore Dependencies (API)
       run: dotnet restore
-      working-directory: BackEnd/MyCalendar.Api
+      working-directory: Backend/MyCalendar.Api
 
-    - name: Restore dependencies (TEST)
+    - name: Restore Dependencies (TEST)
       run: dotnet restore
-      working-directory: BackEnd/MyCalendar.Tests
+      working-directory: Backend/MyCalendar.Tests
       
     - name: Build (API)
       run: dotnet build --no-restore
-      working-directory: BackEnd/MyCalendar.Api
+      working-directory: Backend/MyCalendar.Api
 
     - name: Build (TEST)
       run: dotnet build --no-restore
-      working-directory: BackEnd/MyCalendar.Tests
+      working-directory: Backend/MyCalendar.Tests
       
-    - name: Test
+    - name: Execute Tests
       run: dotnet test --no-build --verbosity normal
-      working-directory: BackEnd/MyCalendar.Tests
+      working-directory: Backend/MyCalendar.Tests
