@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MyCalendar.Data\MyCalendar.Data.csproj" />
     <ProjectReference Include="..\MyCalendar.Domain\MyCalendar.Domain.csproj" />
+		<ProjectReference Include="..\MyCalendar.Data\MyCalendar.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
