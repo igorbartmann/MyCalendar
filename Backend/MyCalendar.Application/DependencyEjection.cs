@@ -9,7 +9,7 @@ namespace MyCalendar.Application
     {
         public static IServiceCollection AddScopedConfig(this IServiceCollection serices, IConfiguration configuration)
         {
-            serices.AddScoped<IUserService, UserService>();
+            serices.AddScoped<IUserInterface, UserService>();
             return serices;
         }
     }

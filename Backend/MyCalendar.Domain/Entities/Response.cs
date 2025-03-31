@@ -10,6 +10,6 @@ namespace MyCalendar.Domain.Entities
     {
         public T? Data { get; set; }
         public String? Message { get; set; }
-        public bool Success { get; set; }
+        public bool Success { get; set; } = true;
     }
 }
