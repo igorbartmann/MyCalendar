@@ -21,5 +21,12 @@ namespace MyCalendar.Api.Controllers
             var response = await _userInterface.CreateUser(userDTO);
             return Ok(response);
         }
+
+        [HttpPut("UpdateUser")]
+        public async Task<ActionResult<Response<User>>> UpdateUser(UserUpdateDTO userDTO)
+        {
+            var response = await _userInterface.UpdateUser(userDTO);
+            return Ok(response);
+        }
     }
 }

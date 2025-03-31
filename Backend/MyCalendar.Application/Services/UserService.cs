@@ -46,7 +46,35 @@ namespace MyCalendar.Application.Services
 
         public async Task<Response<User>> UpdateUser(UserUpdateDTO userDTO)
         {
-            throw new NotImplementedException();
+            Response<User> response = new Response<User>();
+            try
+            {
+                var user = _context.Users.FirstOrDefault(u => u.Id == userDTO.Id);
+                if(user == null)
+                {
+                    response.Message = "No users fount";
+                    return response;
+                }
+
+                user.Name = userDTO.Name;
+                user.BirthDate = userDTO.BirthDate;
+                user.Email = userDTO.Email;
+                user.Password = userDTO.Password;
+                user.Photo = userDTO.Photo;
+
+                _context.Update(user);
+                await _context.SaveChangesAsync();
+
+                response.Data = await _context.Users.FindAsync(user.Id);
+                response.Message = "User edited successfully!";
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                response.Success = false;
+            }
+
+            return response;
         }
     }
 }
