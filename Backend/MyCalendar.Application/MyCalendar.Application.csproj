@@ -11,10 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Services\" />
     <Folder Include="Interfaces\Queries\" />
     <Folder Include="Queries\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <PropertyGroup>

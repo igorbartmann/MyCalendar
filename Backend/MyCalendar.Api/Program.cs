@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+using MyCalendar.Application;
 using MyCalendar.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScopedConfig(builder.Configuration);
 builder.Services.AddDbContextConfig(builder.Configuration);
 
 var app = builder.Build();
