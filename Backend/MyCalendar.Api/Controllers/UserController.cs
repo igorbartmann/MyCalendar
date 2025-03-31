@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MyCalendar.Application.Interfaces.Services;
 using MyCalendar.Domain.DTOs.User;
 using MyCalendar.Domain.Entities;

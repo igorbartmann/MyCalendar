@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyCalendar.Domain.Entities
+﻿namespace MyCalendar.Domain.Entities
 {
     public class Response<T>
     {
